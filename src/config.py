@@ -30,7 +30,7 @@ for _d in (LEXICON_DIR, FILING_DIR, PRICE_DIR, UNIVERSE_DIR, INTERIM_DIR, OUTPUT
 # limits to 10 requests/second. Set SEC_USER_AGENT in your environment:
 #     Windows PowerShell:  $env:SEC_USER_AGENT = "Your Name your.netid@nyu.edu"
 #     macOS / Linux:       export SEC_USER_AGENT="Your Name your.netid@nyu.edu"
-SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "")
+SEC_USER_AGENT = "Shreya Volety sv3101@nyu.edu"
 SEC_MAX_REQUESTS_PER_SEC = 6.0  # below the SEC's limit of 10, on purpose
 
 # ----------------------------------------------------------------------------
