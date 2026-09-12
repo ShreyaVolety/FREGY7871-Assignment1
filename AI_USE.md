@@ -10,11 +10,10 @@ Replace everything below.
 **Tools used:**
 
 **What I used them for:**
-(e.g. "Claude for debugging the two-way clustered standard errors, and for a first
-draft of the quintile plotting code, which I then rewrote to sort within quarter.")
+
+I used ChatGPT (OpenAI) as a coding and debugging assistant while completing this assignment. Helped organize and improve the clarity of code and written explanations. Specifically helped me generate cleaner versions of the plots and tables for the report. Further, it was much easier to implement the window construction, day0 validation checks etc.,
 
 **What I wrote myself:**
 
 **Anything the model got wrong that I had to correct:**
-(This one is worth writing honestly. It is often the most interesting thing in the
-file, and it tells me you were reading the output rather than pasting it.)
+Strangely it got the tf.idf weighting formula wrong - the sanity check implemented was very useful to correct that. Also did not implement controls in the sentiment regression initially despite the code having already explicitly constructed the controls.  
