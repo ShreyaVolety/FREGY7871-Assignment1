@@ -43,9 +43,6 @@ assignment, and most failures are fixable in a minute:
 - The run dies overnight: it is resumable. Run it again, it skips what it has.
 - Disk pressure: add `--drop-html`.
 
-If you have genuinely tried and it still will not work, email
-**axs10695@nyu.edu** and the corpus will be sent to you directly. Do that only
-after attempting the download, and say what you tried and what the error was.
 
 ## What you write
 
